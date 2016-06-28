@@ -20,6 +20,8 @@ body {
   font-weight: normal;
   color: #fff; }
 
+
+
 ::selection {
   color: #fff;
   background: #bee4fd;
@@ -45,7 +47,6 @@ body {
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word; }
 
@@ -163,7 +164,9 @@ body {
 .reveal table {
   margin: auto;
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+  display: flex;
+  }
 
 .reveal table th {
   font-weight: bold; }
